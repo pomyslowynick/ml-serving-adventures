@@ -6,8 +6,11 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "datasets>=4.5.0",
-    "fastapi[cli,standard]>=0.133.0",
+    "fastapi[standard]>=0.133.0",
+    "loguru>=0.7.3",
     "pillow>=12.1.1",
+    "python-multipart>=0.0.22",
+    "requests>=2.32.5",
     "torch>=2.10.0",
     "transformers>=5.2.0",
 ]
