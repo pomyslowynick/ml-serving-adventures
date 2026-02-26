@@ -1,3 +1,14 @@
+## 26th Feb 2026
+
+I'm going to add a lifespan function for initializing the models, Claude suggested it's better than global vars.
+I'll try hammering the server with a load test today as well, just to feel the pains and see how it progresses from a single threaded, naive app to more optimized solution.
+
+Let's also start building up the triton knowledge by looking at `config.pbtxt` and metrics exposed by it.
+
+I need to understand context managers in Python better, I never really got how `with` and `yield` work.
+
+I'm also adding locust to run a quick load test on my naive server, let's see how bad it is lol.
+
 ## 24th Feb 2026
 
 All of the dependencies used in this project are new to me.
